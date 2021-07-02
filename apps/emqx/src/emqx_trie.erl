@@ -57,6 +57,7 @@
         }).
 
 -rlog_shard({?ROUTE_SHARD, ?TRIE}).
+-rlog_shard({?PERSISTENT_SESSION_SHARD, ?SESSION_TRIE}).
 
 %%--------------------------------------------------------------------
 %% Mnesia bootstrap
